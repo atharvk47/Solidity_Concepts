@@ -18,4 +18,15 @@ contract PureExample {
   // 2) We define a view function named getNum().
   // 3) getNum() takes a number and tries to modify static variable using it which will produce error since pure functions do not allow
   // to read and write these variables.
+
+  function getSum(uint number3, uint number2) public pure returns(uint) {
+    uint sum = number3 + number2;
+    return sum;
+  }
+
+  // Explanation:
+  // We define a pure function named getSum().
+  // getSum() function accepts two parameters number1 and number2, and calculates their sum.
+  // The function returns the sum.
+  // Since the function getSum() doesn’t read or modify any state variables, it is considered a Pure function.
 }
