@@ -23,3 +23,6 @@ contract ExceptionExample {
         _to.transfer(_amount);
     }
 }
+
+// a require() function when false, also reverts back all the changes made to the contract but does refund 
+// all the remaining gas fees we offered to pay.
