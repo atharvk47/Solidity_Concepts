@@ -3,7 +3,7 @@
 pragma solidity ^0.8.15;
 
 // The payable modifier tells solidity that the function is expecting eth to receive. 
-// In Remix IDE, payable function shows red color button on deploying.
+// In Remix IDE, payable function shows red color button after depolying smart contract.
 
 contract SampleContract {
     string public myString = "Hello World";
