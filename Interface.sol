@@ -15,7 +15,8 @@ contract Test is Calculator {
    }
 }
 
-// Interfaces are similar to abstract contracts and are created using interface keyword. Following are the key characteristics of an interface.
+// Interfaces are similar to abstract contracts and are created using interface keyword. 
+// Following are the key characteristics of an interface.
 
 // Interface can not have any function with implementation.
 // Functions of an interface can be only of type external.
